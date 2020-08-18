@@ -29,19 +29,11 @@ namespace AplicacionDePrueba1.Controllers
             return View();
         }
 
-        public IActionResult contacccct()
+        public IActionResult CongalaCon()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "CongalaCon";
 
             return View();
-
-        }
-            public IActionResult ContatUs()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-            
         }
 
         public IActionResult Privacy()
